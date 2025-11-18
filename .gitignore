@@ -1,0 +1,70 @@
+# ========================================
+# Global
+# ========================================
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+dist/
+build/
+.env
+*.env
+.env.*
+
+
+
+# ========================================
+# Python / Flask
+# ========================================
+venv/
+env/
+.venv/
+ENV/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+
+
+# ========================================
+# Node / React
+# ========================================
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/.turbo/
+frontend/.vite/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ========================================
+# Docker
+# ========================================
+*.pid
+*.seed
+.docker/
+docker-volume/
+docker-compose.override.yml
+docker-compose.dev.yml
+
+
+# ========================================
+# OS-specific
+# ========================================
+.DS_Store
+Thumbs.db
+
+
+# ========================================
+# IDE / Editor
+# ========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
