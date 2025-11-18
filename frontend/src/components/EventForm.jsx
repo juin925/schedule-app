@@ -29,7 +29,7 @@ export default function EventForm({ onSubmit, selectedEvent, onCancel }) {
 
   return (
     <div className="card">
-      <h2 className="card-title">{selectedEvent ? "스케줄 수정" : "새 스케줄 추가"}</h2>
+      <h2 className="card-title">{selectedEvent ? "스케줄 수정" : "새 스케줄 추가~"}</h2>
       <form onSubmit={handleSubmit}>
         <label>제목 *</label>
         <input
